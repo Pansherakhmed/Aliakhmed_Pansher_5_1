@@ -2,13 +2,17 @@ public class Hero {
     private int health;
     private int damage;
     private int superPower;
-    public Hero (){}
-    public Hero (int health, int damage, int superPower){
+
+    public Hero() {
+    }
+
+    public Hero(int health, int damage, int superPower) {
         this.health = health;
         this.damage = damage;
         this.superPower = superPower;
     }
-    public Hero (int health, int damage){
+
+    public Hero(int health, int damage) {
         this.health = health;
         this.damage = damage;
     }
